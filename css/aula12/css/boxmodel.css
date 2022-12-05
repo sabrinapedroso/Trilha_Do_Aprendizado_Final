@@ -1,0 +1,73 @@
+ h1{
+        background-color: rgb(13, 48, 80);
+        color: aliceblue;
+        text-align: center;
+    }
+    span{
+        background-color: rgb(13, 48, 80);
+        color: aliceblue;
+        display: block;
+    }
+    p{
+        background-color: rgb(13, 48, 80);
+        display: inline;
+        color: aliceblue;
+    }
+    body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 25px 45px;
+        border-style: double;
+        border-width: 5px;
+        border-color: rgb(13, 48, 80);
+        padding: 10px 25px;
+    }
+
+    div{
+        border: solid;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(199, 220, 230);
+    }
+
+    .box1{
+        background-color: rgb(198, 241, 200);
+        width: 400px;
+        height: 40px;
+        position: static;
+    }
+
+    .box2{
+        background-color: rgb(233, 241, 198);
+        width: 400px;
+        height: 40px;
+        position: relative;
+        bottom: 62px;
+        left: 450px;
+    }
+
+    .box3{
+        background-color: rgb(198, 232, 241);
+        width: 400px;
+        height: 40px;
+        position: absolute;
+        top: 1000px;
+        left: 525px;
+    }
+
+    .box4{
+        background-color: rgb(224, 198, 241);
+        width: 400px;
+        height: 40px;
+        position: fixed;
+        top: 2px;
+        right: 2px;
+    }
+
+    .box5{
+        background-color: rgb(241, 198, 235);
+        width: 400px;
+        height: 40px;
+        position: sticky;
+        bottom: 286px;
+    }
+

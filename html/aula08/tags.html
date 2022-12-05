@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../index_img/favicon.ico">
+    <title>Tags</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1> Utilização de outras tags</h1>
+    <h2> Tabelas </h2>
+    <p> Utilizamos a tag table para contruír tabelas nas páginas HTML, a sintaxe consiste na tag &lttable&gt, e dentro dela adicionamos &lttr&gt para criar uma linha e &lttd&gt para cada célula da tabela. No caso de uma célula de título, utilizamos &ltth&gt no lugar de &lttd&gt. A sintaxe se assemelha a: </p>
+    <img src="img/sintaxe_tabela.PNG">
+    <p> Podemos estilizar a tabela e adicionar borda utilizando css, e adicionar uma legenda a tabela utilizando a tag &ltcaption&gt </p>
+    <h3> Exemplo: </h3>
+    <table>
+        <tr>
+            <th>
+                Nome da cor
+            </th>
+            <th>
+                Código Hexadecimal
+            </th>
+            <th>
+                Código RGB
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Space Cadet
+            </td>
+            <td>
+                25283D
+            </td>
+            <td>
+                37, 40, 61
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Plum
+            </td>
+            <td>
+                8F3985
+            </td>
+            <td>
+                143, 57, 133
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pearly Purple
+            </td>
+            <td>
+                A675A1
+            </td>
+            <td>
+                166, 117, 161
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tuscany
+            </td>
+            <td>
+                CEA2AC
+            </td>
+            <td>
+                206, 162, 172
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Champagne Pink  
+            </td>
+            <td>
+                EFD9CE
+            </td>
+            <td>
+                239, 217, 206
+            </td>
+        </tr>
+        <caption> Tabela de nomes, códigos hexadecimais e códigos rgb das cores utilizadas no site </caption>
+    </table>
+<hr>
+    <h2>Formatação de texto</h2>
+    <p> Utilizamos outras tags para formatar texto também, similar as tags de itálico e negrito, por exemplo:</p>
+    <ul>
+        <li>
+            &ltdel&gt: Mostra o texto riscado, sua sintaxe é &ltdel&gt texto &lt/del&gt. <br> Exemplo:
+            <del> Esse texto foi riscado </del>
+        </li><br>
+        <li>
+            &ltins&gt: Mostra o texto sublinhado, sua sintaxe é &ltins&gt texto &lt/ins&gt. <br> Exemplo:
+            <ins> Esse texto foi sublinhado</ins>
+        </li><br>
+        <li>
+            &ltsub&gt: Mostra o texto subscrito, ou seja, menor na parte de baixo de outros caracteres. Sua sintaxe é &ltsub&gt texto &lt/sub&gt. <br> Exemplo: 
+            <sub> Esse texto está subscrito</sub>
+        </li><br>
+        <li>
+            &ltsup&gt: Mostra o texto sobrescrito, ou seja, menor na parte de cima de outros caracteres, pode ser utiliado para representar potência. Sua sintaxe é &ltsup&gt texto &lt/sup&gt. <br> Exemplo: 
+            <sup> Esse texto está sobrescrito</sup>
+        </li><br>
+        <li>
+            &ltbdo&gt: Utilizada para mudar a direção em que o texto aparece, por meio do atributo dir="", com rtl (da direita para esquerda) ou ltr (da esquerda para direita). Sua sintaxe é: &ltbdo dir=""&gt Texto &lt/bdo&gt. <br> Exemplo: 
+            <bdo dir="rtl">pneumoultramicroscopicossilicovulcanoconiótico</bdo>
+        </li>
+    </ul>
+<hr>
+    <p> Também podemos utilizar tags para destacar conteúdo do código, principalemnete para ferramentas de busca, como: </p>
+    <ul>
+        <li>
+            &ltblockquote&gt: Define uma trecho de citação de outra fonte, importante para dar destaque no código a uma citação. Sua sintaxe consiste na tag &ltblockquote cite=""&gt &lt/blockquote&gt. <br>Exemplo:
+            <blockquote cite="https://www.bn.gov.br/sobre-bn">
+                Com mais de 200 anos de história, a Biblioteca Nacional é a mais antiga instituição brasileira, anterior mesmo à constituição do Brasil como nação independente.
+            </blockquote>
+        </li><br>
+        <li>
+            &ltq&gt: Utilizado com o mesmo prósito da tag blockquote, porém para citações curtas. Sua sintaxe consiste em: &ltq&gt Citação &lt/q&gt, essa tag adicona aspas automaticamente. <br>Exemplo:
+            <br>
+            <q> A educação é a arma mais poderosa que você pode usar para mudar o mundo</q>
+        </li> <br>
+        <li>
+            &ltabbr&gt: Essa tag destaca uma sigla ou abreviação, se utilizada com "title" pode mostrar o significado quando sobreposta pelo cursor. Sua sintaxe consiste em: &ltabbr title="significado"&gt Abreviação/sigla &lt/abbr&gt. <br> Exemplo:
+           <abbr title="Instituto de Matemática Pura e Aplicada"> IMPA </abbr>
+        </li> <br>
+        <li>
+            &ltaddress&gt: Tem como função destacar informações de contato. Essa tag vai mostrar as informações em itálico automaticamente e sua sintaxe consiste em &ltaddress&gt Contato &lt/address&gt. <br> Exemplo:
+            <address> Código escrito por Sabrina A. Pedroso <br> <a href="https://irati.ifpr.edu.br/" target="_blank">IFPR Campus Irati</a></address>
+        </li> <br>
+        <li>
+            &ltcite&gt: Utilizada para citar, com destaque, nomes de obras e trabalhos artísticos num geral. O texto é a automaticamente definido em itálico e sua sintaxe é: &ltcite&gt Título da Obra &ltcite&gt. <br> Exemplo:
+            <cite>O Pequeno Príncipe</cite> - Antoine de Saint-Exupéry
+        </li>
+    </ul>
+    <hr>
+    <P> Outras tags que podemos utilizar são: </P>
+    <ul>
+        <li>
+            &ltcode&gt: Essa tag é utilizada para enfatizar um trecho de código, sendo mostrado na fonte padrão do navegador. A sintaxe é: &ltcode&gt Código &ltcode&gt. <br> Exemplo:
+            <code> Trecho de código </code>
+        </li>
+        <li>
+            &ltpre&gt: Utilizamos essa tag para mostrar um texto formatado exatamente com a formatação recebida no código html, incluindo espaçõs e quebras de linha. Sua sintaxe é: &ltpre&gt Texto &ltpre&gt. <br> Exemplo:
+            <pre> Esse texto foi
+                pré-formatado     :)
+            </pre>
+        </li>
+        <li>
+            &ltkbd&gt: É utilizada para definir que determinado texto corresponde a uma tecla do teclado do computador. Sua sintaxe é  &ltkbd&gt Tecla  &ltkbd&gt. <br> Exemplo:
+            <kbd> Alt </kbd>
+        </li>
+    </ul>
+</body>
+</html>

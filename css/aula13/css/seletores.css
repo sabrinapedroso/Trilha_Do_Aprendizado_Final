@@ -1,0 +1,37 @@
+div{
+    background-color: rgb(196, 85, 168);
+}
+.b1{
+    background-color: rgb(219, 90, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(196, 85, 168);
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 20px;
+    color: rgb(229, 205, 200);
+}
+.b2{
+    background-color: rgb(207, 139, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px dotted rgb(196, 85, 168);
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 20px;
+    color: rgb(229, 205, 200);
+}
+.agrupamento{
+    background-color: rgb(215, 180, 172);
+    padding: 20px;
+    margin: 10px;
+}
+
+#ei{
+    background-color: rgb(229, 205, 200);
+    padding: 20px;
+    margin: 10px;
+}
+body{
+    background-color: rgb(248, 243, 241);
+}

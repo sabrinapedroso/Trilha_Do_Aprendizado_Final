@@ -1,0 +1,15 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(252, 173, 199, 0.308);
+}
+h1{
+    background-color: #f78c9e;
+    color:#fde5ed94;
+    text-align: center;
+}
+h2{
+    color:#fc92a4;
+}
+h3{
+    color:#f78c9e;
+}

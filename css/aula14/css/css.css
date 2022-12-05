@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.img{
+    background-color:  #E8EDED;
+   /* margin: auto; */
+    display: block;
+    margin-bottom: 20px;
+}
+.main{
+    border-top: 10px solid #214540;
+}
+.logo{
+    margin-left: 70px;
+    display: inline;
+}
+.navbar{
+    margin-left: 100px;
+    display: inline;
+    position: relative;
+    bottom: 30px;
+    left: 800px;
+}
+.txt{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.rodape{
+    text-align: center;
+}
+a{
+    color: #3A4040;
+}
+.sobre{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.video{
+    margin-left: 70px;
+}
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

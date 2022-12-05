@@ -1,0 +1,57 @@
+body{ /*altera as propriedades gerais do conteúdo html*/
+    font-family: Arial, Helvetica, sans-serif; /*altera a fonte do site*/
+    width: 90%; /*largura total do corpo do texto; por em porcentagem o tamanho muda de acordo com o tamanho da tela do navegador, já em pixels ela ficaria estática*/
+    margin: 0 auto; /*centraliza o conteúdo*/
+    background-image: linear-gradient(to right, #0b1726, #1f3f66); /*faz um degradê na página*/
+
+}
+header{ /*define o cabeçalho do site*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius:5px; /*arredonda os cantos de um elemento*/
+    margin-top: 10px;
+}
+.logo img{ /*alteração no logo, específicamente na tag imagem*/
+    width: 50%; /*aumenta ou diminui a imagem*/
+    padding-top: 50px; 
+
+}
+.navegacao{
+    overflow: hidden; /*serve para esconder a barra de rolagem*/
+}
+.navegacao a{ /*altera os hiperlinks*/
+    float:right; /*posiciona o conteúdo em relação a direita*/
+    color: rgb(173,173,173); /*muda a coloração do texto*/
+    text-decoration: none; /*tira a barra em baixo do texto*/
+    padding:10px;
+}
+.navegacao a:hover{ /*altera a cor dos links quando o mouse é passado por cima*/
+    color: #e32936;
+    background-color: black; /*faz um background em torno do hiperlink*/
+}
+.principal{
+    display: flex; /*deixa os blocks um do lado do outro*/
+    flex-direction: row; /*garantir que ele fique em sequencia na mesma linha*/
+}
+.conteudo{
+    float: left;
+    margin: 15px 15px 25px 15px; /*é aplicado na seguinte ordem: topo, direita, baixo e esquerda; define margens em relação ao body*/
+    background-color: gainsboro;
+    text-align: justify; /*texto justificado*/
+    border-radius: 5px; 
+    padding: 15px; /*para o texto não ficar colado*/
+    box-shadow: 10px 10px 10px; /*define sombra*/
+  
+}
+.rodape{
+    color: darkgrey;
+    font-size: 10px;
+    text-align: center;
+}
+@media screen and (max-width:600px){ /*alteração no conteúdo conforme muda a tela*/
+    .principal, .conteudo{
+        width:100%; 
+        flex-direction: column;
+        padding: 0px;
+    }
+}

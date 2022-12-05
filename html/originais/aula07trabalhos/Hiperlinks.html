@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiperLinks</title>
+    <link rel="icon" type="image/x-icon" href="../index_img/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>
+        Hiperlinks
+    </h1>
+    <p> Utilizamos hiperlinks para redirecionar o usuário a outra parte de uma mesma página, ou para uma página diferente. A tag utilizada é &lta&gt, seguida de href, o sinal "=" e aspas duplas indicando para onde o usuário deve ser redirecionado. A sintxe assemelha-se  a:</p>
+
+    <img src="img/sintaxe_hiperlink.PNG">
+
+    <p>OBS: O hiperlink não precisa ser necessáriamente um texto, como a palavra "Questionário" no exemplo, pode ser uma imagem ou outro elemento</p>
+
+    <h2> Tipos de Hiperlink:</h2>
+    <p>
+        <ul>
+            <li>
+                Hiperlinks que direcionam o usuário para outra página do mesmo site, nesse caso, entre as aspas duplas colocamos o direcionamento para a outra página html. A sintaxe é semelhante a imagem a seguir:
+            </li>
+            <br>
+            <img src="img/sintaxe_hiperlink.PNG">
+            <p> <a href="/aula02/questionario.html"> Teste aqui! </a> </p>
+            <li>
+                Hiperlinks que direcionam o usuário para outra parte na mesma página, nesse caso utilizamos entre as aspas dulpas O símbolo de hashtag e o nome do direcionamento. Em seguida, adiconamos o direcionamento na parte da página desejada utilizando id="nome do direcionamento". A sintaxe é semelhante a:
+            </li>
+            <br>
+            <img src="img/sintaxe_rp1.PNG">
+            <img src="img/sintaxe_rp2.PNG">
+            <p><a href="#final">Teste Aqui!</a></p>
+            <li>
+                Hiperlinks que direcionam o usuário a outros sites da web, nesse caso utilizamos entre aspas duplas o endereço do site desejado. A sintaxe se assemelha a:
+            </li>
+            <br>
+            <img src="img/sintaxe_site.PNG">
+            <p><a href="https://stellarium-web.org/">Teste Aqui!</a></p>
+        </ul>
+    </p>
+
+    <h2> Estruturas adicionais:</h2>
+
+        <p id="final"> Hiperlinks são fundamentais para construção de sites completos, porém, para utilizalos de maneira mais completa ainda podemos adicionar dentro da tag &lta&gt se gostaríamos de que a nova página abrisse em uma nova aba e uma caixa de título a ser exibida quando o cursor é posicionado sobre o link, da seguinte maneira: 
+            <ul>
+                <li>
+                    Para que a nova página abra em uma nova aba no navegador, dentro da tag &lta&gt adicionamos target="_blank", como no exemplo a seguir:
+                </li>
+                <br>
+                <img src="img/sintaxe_target.PNG">
+                <p><a href="https://libraryofbabel.info/" target="_blank"> Teste Aqui! </a></p>
+                <li>
+                    Para adicionar um texto a ser exibido, adicionamos dentro da tag &lta&gt a seguinte estrutura: title="título", a sintaxe aproxima-se de:
+                </li>
+                <br>
+                <img src="img/sintaxe_title.PNG">
+                <p><a href="https://quickdraw.withgoogle.com/" target="_blank" title="Visite o site QuickDraw">Tetse Aqui!</a></p>
+            </ul>
+        </p>
+    
+</body>
+</html>

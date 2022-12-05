@@ -11,6 +11,10 @@ html{
     header{
         background-color: #fffefe;
     }
+
+    main{
+      padding: 5% 10%;
+    }
   
   ul {
       list-style-type: none;
@@ -79,8 +83,4 @@ html{
       flex-direction: row;
       justify-content: space-between;
       padding: 15px 60px 15px 60px;
-    }
-
-    main{
-        padding: 5% 10%;
     }
