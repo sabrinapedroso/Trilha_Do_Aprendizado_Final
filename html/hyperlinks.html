@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks</title>
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../folhas_de_estilo/pages.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../img/logo_roxo.png" alt="" width="70%">
+            </div>
+                <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">JavaScript ⌵</a>
+                    <div class="dropdown-content">
+                        <a href="../js.html">Introdução</a>
+                        <a href="../js/ex01_js.html">Primeiros Passos</a>
+                        <a href="../js/js_ex02.html">Variáveis</a>
+                        <a href="../js/js_ex04.html">Estruturas Condicionais</a>
+                        <a href="../js/js_ex06.html">Comandos de Múltipla Escolha</a>
+                        <a href="../js/js_ex07.html">Laços de Repetição</a>
+                        <a href="../js/js_ex09.html">Funções</a>
+                        <a href="../js/js_ex10.html">Arrays</a>
+                      </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">CSS ⌵</a>
+                    <div class="dropdown-content">
+                        <a href="../css.html">Introdução</a>
+                        <a href="../css/Aula11/RDE10-CSS.html">Primeiros Passos</a>
+                        <a href="../css/aula12/CSS_BoxModel.html">Box Model</a>
+                        <a href="../css/aula13/posicionamento.html">Agrupamento de Elementos e Seletores</a>
+                        <a href="../css/aula15/Layout1.html">Layouts</a>
+                        <a href="../css/aula14/index_webdev.html">Projeto Final CSS</a>
+                      </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">HTML ⌵</a>
+                    <div class="dropdown-content">
+                        <a href="../html.html">Introdução</a>
+                        <a href="conceitosfundamentais.html">Conceitos Fundamentais</a>
+                        <a href="imagenselistas.html">Imagens e Listas</a>
+                        <a href="hyperlinks.html">Hyperlinks</a>
+                        <a href="tags.html">Outras Tags</a>
+                        <a href="multimidias.html">Multimídias</a>
+                        <a href="">Projeto Final HTML</a>
+                      </div>
+                </li>
+                <li class="nodrpdn">
+                    <a href="../index.html">Sobre</a>
+                </li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <h1>
+                Hiperlinks
+            </h1>
+            <p> Utilizamos hiperlinks para redirecionar o usuário a outra parte de uma mesma página, ou para uma página diferente. A tag utilizada é &lta&gt, seguida de href, o sinal "=" e aspas duplas indicando para onde o usuário deve ser redirecionado. A sintxe assemelha-se  a:</p>
+        
+            <img src="originais/aula07trabalhos/img/sintaxe_hiperlink.PNG">
+        
+            <p>OBS: O hiperlink não precisa ser necessáriamente um texto, como a palavra "Questionário" no exemplo, pode ser uma imagem ou outro elemento</p>
+        
+            <h2> Tipos de Hiperlink:</h2>
+            <p>
+                <ul>
+                    <li>
+                        Hiperlinks que direcionam o usuário para outra página do mesmo site, nesse caso, entre as aspas duplas colocamos o direcionamento para a outra página html. A sintaxe é semelhante a imagem a seguir:
+                    </li>
+                    <br>
+                    <img src="originais/aula07trabalhos/img/sintaxe_hiperlink.PNG">
+                    <p> <a href="originais/aula02/questionario.html"> Teste aqui! </a> </p>
+                    <li>
+                        Hiperlinks que direcionam o usuário para outra parte na mesma página, nesse caso utilizamos entre as aspas dulpas O símbolo de hashtag e o nome do direcionamento. Em seguida, adiconamos o direcionamento na parte da página desejada utilizando id="nome do direcionamento". A sintaxe é semelhante a:
+                    </li>
+                    <br>
+                    <img src="originais/aula07trabalhos/img/sintaxe_rp1.PNG">
+                    <img src="originais/aula07trabalhos/img/sintaxe_rp2.PNG">
+                    <p><a href="#final">Teste Aqui!</a></p>
+                    <li>
+                        Hiperlinks que direcionam o usuário a outros sites da web, nesse caso utilizamos entre aspas duplas o endereço do site desejado. A sintaxe se assemelha a:
+                    </li>
+                    <br>
+                    <img src="originais/aula07trabalhos/img/sintaxe_site.PNG">
+                    <p><a href="https://stellarium-web.org/">Teste Aqui!</a></p>
+                </ul>
+            </p>
+        
+            <h2> Estruturas adicionais:</h2>
+        
+                <p id="final"> Hiperlinks são fundamentais para construção de sites completos, porém, para utilizalos de maneira mais completa ainda podemos adicionar dentro da tag &lta&gt se gostaríamos de que a nova página abrisse em uma nova aba e uma caixa de título a ser exibida quando o cursor é posicionado sobre o link, da seguinte maneira: 
+                    <ul>
+                        <li>
+                            Para que a nova página abra em uma nova aba no navegador, dentro da tag &lta&gt adicionamos target="_blank", como no exemplo a seguir:
+                        </li>
+                        <br>
+                        <img src="originais/aula07trabalhos/img/sintaxe_target.PNG">
+                        <p><a href="https://libraryofbabel.info/" target="_blank"> Teste Aqui! </a></p>
+                        <li>
+                            Para adicionar um texto a ser exibido, adicionamos dentro da tag &lta&gt a seguinte estrutura: title="título", a sintaxe aproxima-se de:
+                        </li>
+                        <br>
+                        <img src="originais/aula07trabalhos/img/sintaxe_title.PNG">
+                        <p><a href="https://quickdraw.withgoogle.com/" target="_blank" title="Visite o site QuickDraw">Tetse Aqui!</a></p>
+                    </ul>
+                </p>
+            
+            <br>
+            <a href="curriculo.html" class="next">Atividade - Currículo ></a>
+            <br>
+            <a href="originais/aula07trabalhos/Hiperlinks.html">Confira a versão original</a>
+        </main>
+</body>
+</html>

@@ -13,7 +13,7 @@ html{
     }
 
     main{
-      padding: 5% 10%;
+      padding: 2% 10%;
     }
   
   ul {
@@ -83,4 +83,37 @@ html{
       flex-direction: row;
       justify-content: space-between;
       padding: 15px 60px 15px 60px;
+    }
+
+    a{
+      text-decoration: none;
+      color: #671679;
+      padding: 10px;
+    }
+
+    form{
+      background-color: none;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    input, textarea{
+      padding: 10px;
+      border: none;
+    }
+
+    input:hover, textarea:hover, input:focus, textarea:focus{
+      background-color: white;
+      font-weight: bold;
+    }
+
+    .enviar{
+      background-color: #671679;
+      border-radius: 10px;
+      color: #f1f1f1;
+      padding: 10px;
+      border: none;
+    }
+
+    form label{
+      padding: 5px;
     }

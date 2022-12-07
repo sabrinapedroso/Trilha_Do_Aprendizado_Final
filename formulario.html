@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="folhas_de_estilo/pages.css">
+    <link rel="shortcut icon" href="img/Design_sem_nome__2_-removebg-preview.png" type="image/x-icon">
+    <script src="js.js"></script>
+    <title>Trilha do Aprendizado</title>
 </head>
 <body>
     <header>
@@ -31,12 +32,12 @@
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">CSS ⌵</a>
                     <div class="dropdown-content">
-                        <a href="css.html>Introdução</a>
-                        <a href="css/Aula11/RDE10-CSS.html"target="_blank">Primeiros Passos</a>
-                        <a href="css/aula12/CSS_BoxModel.html" target="_blank">Box Model</a>
-                        <a href="css/aula13/posicionamento.html" target="_blank">Agrupamento de Elementos e Seletores</a>
-                        <a href="css/aula15/Layout1.html" target="_blank">Layouts</a>
-                        <a href="css/aula14/index_webdev.html" target="_blank">Projeto Final CSS</a>
+                        <a href="css.html">Introdução</a>
+                        <a href="css/Aula11/RDE10-CSS.html">Primeiros Passos</a>
+                        <a href="css/aula12/CSS_BoxModel.html">Box Model</a>
+                        <a href="css/aula13/posicionamento.html">Agrupamento de Elementos e Seletores</a>
+                        <a href="css/aula15/Layout1.html">Layouts</a>
+                        <a href="css/aula14/index_webdev.html">Projeto Final CSS</a>
                       </div>
                 </li>
                 <li class="dropdown">
@@ -48,22 +49,50 @@
                         <a href="html/hyperlinks.html">Hyperlinks</a>
                         <a href="html/tags.html">Outras Tags</a>
                         <a href="html/multimidias.html">Multimídias</a>
-                        <a href="html/">Projeto Final HTML</a>
+                        <a href=".html">Projeto Final HTML</a>
                       </div>
                 </li>
                 <li class="nodrpdn">
-                    <a href="index.html">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 </ul>
         </nav>
-        </header>
-        <main>
-            <h1>
-                CSS
-            </h1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci modi officia at placeat maxime magni quidem voluptate dicta dolores. Ab dolore illum culpa commodi ipsam labore in autem possimus tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt dolorem velit, nisi ab cumque sequi optio est alias non voluptate repudiandae cum nesciunt quaerat amet ipsa, veritatis facere dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ratione magnam at quae explicabo autem vel officiis numquam inventore quidem cupiditate magni, illum vitae aliquid nulla officia exercitationem? Laudantium!
-            </p>
-        </main>
+    </header>
+    <main>
+        <h2>
+            Entre em contato!
+        </h2>
+        <form action="">
+            <label for="nome">
+                Nome completo:
+            </label>
+            <br>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <br>
+
+            <label for="email">
+                Endereço de email:
+            </label>
+            <br>
+            <input type="email" placeholder="email@email.com" id="email">
+            <br>
+
+
+            <label for="date">
+                Data de nascimento
+            </label>
+            <br>
+            <input type="date" placeholder="dd/mm/aaaa" id="date">
+            <br>    
+
+            <label for="comentario"> Deixe sua mensagem:</label>
+            <br>
+            <textarea name="" id="comentario" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea>
+            <br>
+
+            <input type="submit" class="enviar" value="enviar" onclick="enviar">
+
+        </form>
+    </main>
 </body>
 </html>

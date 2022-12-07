@@ -88,13 +88,20 @@ html{
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      height: 100vh;
       padding: 0% 20% 0% 20%;
     }
+
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 150px;
+    }
+
+    header{
+      height: 100vh;
+    }
   
-  .imageminicial{
-    padding: 20%;
-  }
     .textoinicial{
       color: #f1f1f1;
       width: 60%;
@@ -166,6 +173,11 @@ html{
       color: #d6d6d6;
       padding: 50px;
       text-align: center;
+    }
+
+    button a{
+      text-decoration: none;
+      color: #671679;
     }
   
   
