@@ -179,5 +179,14 @@ html{
       text-decoration: none;
       color: #671679;
     }
-  
+
+ .portifolio{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+ }
+
+ .portifolio img{
+  padding: 10px;
+ }
   
